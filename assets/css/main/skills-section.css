@@ -1,0 +1,25 @@
+section.skills-section .skills {
+    &, .skill {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    flex-wrap: wrap;
+
+    .skill {
+        width: 100px;
+        height: 100px;
+        background-color: aliceblue;
+        border-radius: 10px;
+        margin: 10px;
+
+        &:hover {
+            background-color: azure;
+        }
+
+        i {
+            font-size: 80px;
+        }
+    }
+}
