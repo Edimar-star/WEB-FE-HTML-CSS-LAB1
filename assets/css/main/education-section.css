@@ -1,0 +1,17 @@
+section.education .courses {
+    display: block;
+    margin-left: 24px;
+
+    aside {
+        border-left: 3px solid #011936;
+
+        .course {
+            padding: 20px;
+
+            p {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+    }
+}
