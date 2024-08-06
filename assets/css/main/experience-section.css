@@ -1,0 +1,16 @@
+section.experience .projects {
+    display: block;
+    margin-left: 24px;
+
+    aside {
+        border-left: 3px solid #011936;
+
+        .project {
+            padding: 20px;
+
+            p {
+                margin-top: 5px;
+            }
+        }
+    }
+}
