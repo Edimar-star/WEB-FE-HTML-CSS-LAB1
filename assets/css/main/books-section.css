@@ -6,7 +6,9 @@ section.books-section .books {
 
     a {
         width: 200px;
-        margin: 50px;
+        height: 270px;
+        background-color: red;
+        margin: 0 0 50px 50px;
 
         img {
             width: 100%;

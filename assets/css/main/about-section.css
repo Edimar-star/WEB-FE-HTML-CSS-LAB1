@@ -16,8 +16,13 @@ main {
         article {
             display: flex;
             justify-content: start;
+            align-items: end;
             flex-direction: row;
-            padding-bottom: 15px;
+            padding-bottom: 50px;
+
+            &:last-child {
+                padding-bottom: 0;
+            }
 
             img {
                 width: 50px;

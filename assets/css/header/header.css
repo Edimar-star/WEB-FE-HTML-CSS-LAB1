@@ -18,12 +18,12 @@ header {
 
                 h1 {
                     font-weight: bold;
-                    font-size: 45px;
+                    font-size: 5vw;
                 }
 
                 h3 {
                     font-weight: normal;
-                    font-size: 35px;
+                    font-size: 3vw;
                 }
 
                 h1, h3 {
@@ -32,11 +32,11 @@ header {
             }
 
             &.my-photo {
-                margin: auto 0 auto auto;
+                margin: auto;
             }
 
             img {
-                width: 200px;
+                width: 15vw;
                 border-radius: 50%;
                 background-color: white;
             }
