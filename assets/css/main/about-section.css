@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 50px 50px;
+
+    section {
+        margin-top: 50px;
+
+        &:nth-child(1) {
+            margin-top: 0;
+        }
+        
+        article {
+            display: flex;
+            justify-content: start;
+            flex-direction: row;
+            padding-bottom: 15px;
+
+            img {
+                width: 50px;
+                border: 0.5px solid whitesmoke;
+                margin-right: 10px;
+            }
+
+            h4 {
+                font-size: 40px;
+            }
+        }
+    }
+}
