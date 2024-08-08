@@ -32,7 +32,9 @@ header, main, footer {
 }
 
 header, footer {
-    background-color: #011936;
+    background-image: url("/img/background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.skills-section .skills,
@@ -41,8 +43,8 @@ main section article {
     align-content: center;
 }
 
-/* ------------------------ HEADER ------------------------ */
 
+/* ------------------------ HEADER ------------------------ */
 header section article,
 header section.profile {
     text-align-last: start;
@@ -76,6 +78,7 @@ header section article img {
     border-radius: 50%;
     background-color: white;
 }
+
 
 /* ------------------------ MAIN ------------------------ */
 main section {
@@ -150,6 +153,7 @@ section.skills-section .skill figcaption {
     margin: 2px;
     color: #011936;
 }
+
 
 /* ------------------------ EXPERIENCE ------------------------ */
 section.experience .projects aside .project p {
