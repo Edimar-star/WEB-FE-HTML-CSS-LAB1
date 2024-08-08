@@ -1,21 +1,19 @@
 section.skills-section .skills {
     &, .skill {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: inline-block;
+        align-content: center;
     }
-    
-    flex-wrap: wrap;
 
     .skill {
         width: 100px;
         height: 100px;
         background-color: aliceblue;
         border-radius: 10px;
-        margin: 10px;
+        margin: 5px;
+        text-align: center;
 
         &:hover {
-            background-color: azure;
+            background-color: rgb(187, 241, 224);
         }
 
         i {

@@ -1,21 +1,15 @@
 header {
     background-color: #011936;
-    box-sizing: content-box;
-    display: inline-block;
     padding: 50px 50px;
 
     section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        display: block;
 
         article {
             display: inline-block;
+            align-content: center;
 
             &.my-info {
-                padding: 20px 0px 20px 0px;
-                margin: auto auto auto 0;
-
                 h1 {
                     font-weight: bold;
                     font-size: 5vw;
@@ -36,7 +30,8 @@ header {
             }
 
             &.my-photo {
-                margin: auto;
+                float: inline-end;
+                margin: 6px;
             }
 
             img {
