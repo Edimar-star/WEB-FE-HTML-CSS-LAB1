@@ -1,0 +1,188 @@
+/* ------------------------ GENERIC STYLES ------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header main footer {
+    padding: 0 50px;
+}
+
+header section article, main section article img,
+main section article h4, section.education .courses aside .course p b, 
+section.education .courses aside .course p time, section.skills-section .skills,
+section.skills-section .skill, section.books-section .books a {
+    display: inline-block;
+}
+
+header section, section.education .courses, section.experience .projects {
+    display: block;
+}
+
+header section, section.education .courses aside .course p {
+    text-align-last: justify;
+}
+
+footer, section.skills-section .skill {
+    text-align: center;
+}
+
+header, main, footer {
+    padding: 50px 50px;
+}
+
+header, footer {
+    background-color: #011936;
+}
+
+section.skills-section .skills,
+section.skills-section .skill,
+main section article {
+    align-content: center;
+}
+
+/* ------------------------ HEADER ------------------------ */
+
+header section article,
+header section.profile {
+    text-align-last: start;
+}
+
+header section article.my-info h1 {
+    font-size: 5vw;
+}
+
+header section article.my-info h3 {
+    font-weight: normal;
+    font-size: 3vw;
+}
+
+header section article.my-info h1, 
+header section article.my-info h3,
+blockquote, footer, footer article a i {
+    color: white;
+}
+
+header section article.my-info h3 span {
+    font-style: italic;
+}
+
+header section.profile {
+    margin-top: 25px;
+}
+
+header section article img {
+    width: 15vw;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* ------------------------ MAIN ------------------------ */
+main section {
+    margin-top: 50px;
+}
+
+main section:first-child {
+    margin-top: 0;
+}
+
+main section article {
+    padding-bottom: 50px;
+}
+
+main section article:last-child {
+    padding-bottom: 0;
+    padding: 0 24px;
+}
+
+main section article img {
+    width: 50px;
+    border: 0.5px solid whitesmoke;
+    margin-right: 10px;
+}
+
+main section article h4 {
+    font-size: 40px;
+}
+
+section.education .courses aside, 
+section.experience .projects aside {
+    border-left: 3px solid #011936;
+}
+
+section.education .courses .course, 
+section.experience .projects .project {
+    padding: 20px;
+}
+
+
+/* ------------------------ ABOUT ME ------------------------ */
+.about-me article:nth-child(2) p span {
+    font-weight: bold;
+}
+
+
+/* ------------------------ EDUCATION ------------------------ */
+section.education .courses aside .course p time {
+    text-align-last: right;
+}
+
+
+/* ------------------------ SKILLS ------------------------ */
+section.skills-section .skill {
+    width: 100px;
+    height: 100px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+section.skills-section .skill:hover {
+    background-color: rgb(187, 241, 224);
+}
+
+section.skills-section .skill i {
+    font-size: 80px;
+}
+
+section.skills-section .skill figcaption {
+    margin: 2px;
+    color: #011936;
+}
+
+/* ------------------------ EXPERIENCE ------------------------ */
+section.experience .projects aside .project p {
+    margin-top: 5px;
+}
+
+
+/* ------------------------ BOOKS ------------------------ */
+section.books-section .books a {
+    width: 200px;
+    height: 270px;
+    margin: 0 25px 25px 0;
+}
+
+section.books-section .books a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------------------------ FOOTER ------------------------ */
+footer article {
+    margin: 10px;
+}
+
+footer article a {
+    margin: 5px;
+}
+
+footer article a i {
+    font-size: 30px;
+}
+
+footer article a:hover > i {
+    color: rgb(164, 189, 211);
+}
