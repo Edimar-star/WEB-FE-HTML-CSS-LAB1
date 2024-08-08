@@ -31,10 +31,16 @@ header, main, footer {
     padding: 50px 50px;
 }
 
-header, footer {
-    background-image: url("/img/background.avif");
+header {
+    background-image: url("https://images.hdqwalls.com/wallpapers/moon-light-ride-4k-e3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+header, footer, section.skills-section .skill, 
+footer article a i, footer article a i:visited {
+    background-color: #0F1049;
+    color: white;
 }
 
 section.skills-section .skills,
@@ -61,7 +67,7 @@ header section article.my-info h3 {
 
 header section article.my-info h1, 
 header section article.my-info h3,
-blockquote, footer, footer article a i {
+blockquote {
     color: white;
 }
 
@@ -110,7 +116,7 @@ main section article h4 {
 
 section.education .courses aside, 
 section.experience .projects aside {
-    border-left: 3px solid #011936;
+    border-left: 3px solid #0F1049;
 }
 
 section.education .courses .course, 
@@ -135,14 +141,9 @@ section.education .courses aside .course p time {
 section.skills-section .skill {
     width: 100px;
     height: 100px;
-    background-color: aliceblue;
     border-radius: 10px;
     margin: 5px;
     padding: 5px;
-}
-
-section.skills-section .skill:hover {
-    background-color: rgb(187, 241, 224);
 }
 
 section.skills-section .skill i {
@@ -151,7 +152,6 @@ section.skills-section .skill i {
 
 section.skills-section .skill figcaption {
     margin: 2px;
-    color: #011936;
 }
 
 
